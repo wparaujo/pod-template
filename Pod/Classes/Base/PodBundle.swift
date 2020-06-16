@@ -12,15 +12,15 @@ struct PodBundle {
     private static var internalBundle: Bundle?
     
     public static var xib: Bundle {
-        return getBundle(name: "XIB")
+        return getBundle(name: "XIB${POD_NAME}")
     }
 
     public static var image: Bundle {
-        return getBundle(name: "Icons")
+        return getBundle(name: "Icons${POD_NAME}")
     }
     
     public static var strings: Bundle {
-        return getBundle(name: "Strings")
+        return getBundle(name: "Strings${POD_NAME}")
     }
     
     private static func getBundle(name: String) -> Bundle {

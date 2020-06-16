@@ -1,9 +1,9 @@
+///
+//  ${POD_NAME}CardView.swift
+//  PROJECT
 //
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  ___COPYRIGHT___
+//  Created by PROJECT_OWNER on TODAYS_DATE.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
 import CaixaMaisUI
@@ -13,7 +13,7 @@ protocol ${POD_NAME}Delegate {
 
 }
 
-class ${POD_NAME}CardView: BaseCardStackLayout, ViewCode {
+class ${POD_NAME}CardView: BaseCardStackLayout {
 
     var delegate: ${POD_NAME}CardViewDelegate?
 
@@ -29,7 +29,7 @@ class ${POD_NAME}CardView: BaseCardStackLayout, ViewCode {
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___: ViewCode {
+extension ${POD_NAME}CardView: ViewCode {
     func buildViewHierarchy() {
         
     }

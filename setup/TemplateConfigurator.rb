@@ -175,6 +175,10 @@ module Pod
       FileUtils.mv "POD_README.md", "README.md"
       FileUtils.mv "POD_LICENSE", "LICENSE"
       FileUtils.mv "NAME.podspec", "#{pod_name}.podspec"
+      FileUtils.mv "Pod/Classes/Card/Card.swift", "#{pod_name}Card.swift"
+      FileUtils.mv "Pod/Classes/Card/CardPresenter.swift", "#{pod_name}CardPresenter.swift"
+      FileUtils.mv "Pod/Classes/Card/CardPresenterFactory.swift", "#{pod_name}CardPresenterFactory.swift"
+      FileUtils.mv "Pod/Classes/Card/CardView.swift", "#{pod_name}CardView.swift"
     end
 
     def rename_classes_folder

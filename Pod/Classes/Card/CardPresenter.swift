@@ -1,22 +1,22 @@
+///
+//  ${POD_NAME}Presenter.swift
+//  PROJECT
 //
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  ___COPYRIGHT___
+//  Created by PROJECT_OWNER on TODAYS_DATE.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
 import CoreAppCaixa
 import Foundation
 
-protocol ___VARIABLE_productName:identifier___CardViewProtocol: ViewProtocol {
+protocol ${POD_NAME}CardViewProtocol: ViewProtocol {
     // Put your code here
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___Protocol: PresenterProtocol {
+protocol ${POD_NAME}Protocol: PresenterProtocol {
     // Put your code here
 }
 
-class ___FILEBASENAMEASIDENTIFIER___<VIEW: ___VARIABLE_productName:identifier___CardViewProtocol>: BasePresenter<VIEW>, ___VARIABLE_productName:identifier___CardPresenterProtocol {
+class ${POD_NAME}Presenter<VIEW: ${POD_NAME}CardViewProtocol>: BasePresenter<VIEW>, ${POD_NAME}CardPresenterProtocol {
     // Put your code here
 }

@@ -1,5 +1,5 @@
 ///
-//  CXImage.swift
+//  ${POD_NAME}Card.swift
 //  PROJECT
 //
 //  Created by PROJECT_OWNER on TODAYS_DATE.
@@ -10,9 +10,9 @@ import CaixaMaisUI
 import CoreAppCaixa
 import UIKit
 
-class ProjectCard: BaseCardView, BaseCardViewProtocol {
-    private let view___VARIABLE_productName:identifier___: ___VARIABLE_productName:identifier___CardView = ___VARIABLE_productName:identifier___CardView()
-    var presenter___VARIABLE_productName:identifier___: ___VARIABLE_productName:identifier___CardPresenterProtocol?
+class ${POD_NAME}Card: BaseCardView, BaseCardViewProtocol {
+    private let view${POD_NAME}Card: ${POD_NAME}CardView = ${POD_NAME}CardView()
+    private var presenter${POD_NAME}Card: ${POD_NAME}CardPresenterProtocol?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,12 +25,12 @@ class ProjectCard: BaseCardView, BaseCardViewProtocol {
     }
     
     func setupPresenter() {
-        self.presenter___VARIABLE_productName:identifier___ = ___VARIABLE_productName:identifier___CardPresenterFactory.create(view: self)
+        self.presenter${POD_NAME}Card = ${POD_NAME}CardPresenterFactory.create(view: self)
     }
     
     public func setupView() {
-        addSubview(view___VARIABLE_productName:identifier___)
-        view___VARIABLE_productName:identifier___.snp.makeConstraints({ (make) in
+        addSubview(view${POD_NAME}Card)
+        view${POD_NAME}Card.snp.makeConstraints({ (make) in
             make.top.leading.equalToSuperview().offset(8.0)
             make.trailing.bottom.equalToSuperview().offset(-8.0)
         })
@@ -38,11 +38,11 @@ class ProjectCard: BaseCardView, BaseCardViewProtocol {
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___CardViewDelegate {
+extension ${POD_NAME}Card: ${POD_NAME}CardViewDelegate {
     // Put your code here
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___CardViewProtocol {
+extension ${POD_NAME}Card: ${POD_NAME}CardViewProtocol {
     func didErrorOccurred(error: String) {
 
     }

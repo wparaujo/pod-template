@@ -37,7 +37,7 @@ module Pod
 
       # There has to be a single file in the Classes dir
       # or a framework won't be created
-      `touch Pod/Classes/ReplaceMe.swift`
+      # `touch Pod/Classes/ReplaceMe.swift`
 
       `mv ./NAME-osx.podspec ./NAME.podspec`
     end

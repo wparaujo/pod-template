@@ -1,15 +1,15 @@
+///
+//  ${POD_NAME}PresenterFactory.swift
+//  PROJECT
 //
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  ___COPYRIGHT___
+//  Created by PROJECT_OWNER on TODAYS_DATE.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___ {
-    public static func create<VIEW: ___VARIABLE_productName:identifier___CardViewProtocol>(view: VIEW) -> ___VARIABLE_productName:identifier___CardPresenterProtocol {
-        return ___VARIABLE_productName:identifier___CardPresenter(view: view)
+class ${POD_NAME}PresenterFactory {
+    public static func create<VIEW: ${POD_NAME}CardViewProtocol>(view: VIEW) -> ${POD_NAME}CardPresenterProtocol {
+        return ${POD_NAME}CardPresenter(view: view)
     }
 }
