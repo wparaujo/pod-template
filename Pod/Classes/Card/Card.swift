@@ -10,7 +10,7 @@ import CaixaMaisUI
 import CoreAppCaixa
 import UIKit
 
-class '${POD_NAME}'Card: BaseCardView, BaseCardViewProtocol {
+class ProjectCard: BaseCardView, BaseCardViewProtocol {
     private let view___VARIABLE_productName:identifier___: ___VARIABLE_productName:identifier___CardView = ___VARIABLE_productName:identifier___CardView()
     var presenter___VARIABLE_productName:identifier___: ___VARIABLE_productName:identifier___CardPresenterProtocol?
 

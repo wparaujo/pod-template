@@ -9,13 +9,13 @@
 import CaixaMaisUI
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Delegate {
+protocol "${POD_NAME}Delegate" {
 
 }
 
-class ___FILEBASENAMEASIDENTIFIER___: BaseCardStackLayout, ViewCode {
+class "${POD_NAME}CardView": BaseCardStackLayout, ViewCode {
 
-    var delegate: ___VARIABLE_productName:identifier___CardViewDelegate?
+    var delegate: ${POD_NAME}CardViewDelegate?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -26,7 +26,10 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCardStackLayout, ViewCode {
         super.init(coder: aDecoder)
         setupView()
     }
-    
+
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___: ViewCode {
     func buildViewHierarchy() {
         
     }
@@ -38,5 +41,4 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCardStackLayout, ViewCode {
     func setupAditionalConfigurations() {
         
     }
-
 }
