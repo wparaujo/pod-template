@@ -1,8 +1,9 @@
 //
-//  ___PROJECTNAME___
+//  CXImage.swift
+//  PROJECT
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  ___COPYRIGHT___
+//  Created by PROJECT_OWNER on TODAYS_DATE.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
 import Foundation
