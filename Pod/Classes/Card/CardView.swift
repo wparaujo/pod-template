@@ -9,11 +9,11 @@
 import CaixaMaisUI
 import UIKit
 
-protocol "${POD_NAME}Delegate" {
+protocol ${POD_NAME}Delegate {
 
 }
 
-class "${POD_NAME}CardView": BaseCardStackLayout, ViewCode {
+class ${POD_NAME}CardView: BaseCardStackLayout, ViewCode {
 
     var delegate: ${POD_NAME}CardViewDelegate?
 
