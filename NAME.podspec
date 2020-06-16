@@ -30,13 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '${POD_NAME}/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
-  # }
+  s.source_files = '${POD_NAME}/Classes/**/*.swift'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.platform     = :ios, "11.0"
+  s.swift_version = '5.0'
+  
+  # s.dependency 'CoreAppCaixa'
+  # s.dependency 'CaixaMaisUI'
+  # s.dependency 'Navigator'
+  
+  s.source_files = 'Microcredit/Classes/**/*.swift'
+
+  s.resources    = 'Microcredit/**/*.{xib,xcassets,ttf,strings}'
+    
+  s.ios.resource_bundle = { 'Icons${POD_NAME}' => '${POD_NAME}/Assets/*.xcassets', 'XIB${POD_NAME}' => '${POD_NAME}/**/*.xib', 'Strings${POD_NAME}' => '${POD_NAME}/**/*.strings' }
 end
