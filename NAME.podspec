@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   # s.platform     = :ios, "11.0"
   s.swift_version = '5.0'
 
-  s.source_files = '${POD_NAME}t/Classes/**/*.swift'
+  s.source_files = '${POD_NAME}/Classes/**/*.swift'
   s.resources    = '${POD_NAME}/**/*.{xib,xcassets,ttf,strings}'
   
   # s.dependency 'CoreAppCaixa'
